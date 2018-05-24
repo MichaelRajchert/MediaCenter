@@ -1,0 +1,36 @@
+body{
+    background-color: #222
+}
+hr{
+   margin-top:1px;
+   margin-bottom: 10px;
+   border-color: rgb(131, 131, 131);
+}
+.search{
+    -webkit-apperance:none;
+    border:0;
+    border-bottom: 1px solid #838383;
+    background: #111;
+    color:white;
+    font-size:17px;
+}
+
+.topnav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo{
+    height: 17px
+}

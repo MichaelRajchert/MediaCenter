@@ -3,11 +3,28 @@
 <head>
     <script src="../js/jquery-3.3.1.js"></script>
     <script src="../js/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "../css/style.css" />
 </head>
 <body>
-    <header>
-
-    </header>
-    
+    <script src="../js/scripts.js"></script>
+    <div class="topnav">
+        <a href="#home">
+            <img class="logo" src="../media/images/shitPlaceholderIcon.png"></img>
+        </a>
+        <a href="#justadded">Just Added</a>
+        <a href="#addnew">Add New</a>
+        <a style="float:right">
+            <div>
+                <i class="fa fa-search" style="margin-right:10px; color:#858585"></i>
+                <input class="search" type="search" placeholder ="Search..." v-model="message">
+            </div>
+        </a>
+    </div>
+    <hr>
 </body>
 </html>
